@@ -1,0 +1,153 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat' ;
+
+}
+
+body {
+    background: #7D7C7C;
+    color: #ededed;
+    
+}
+
+.header {
+    font-family: mo;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 5%;
+    background: #272829; opacity: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #5C5470;
+}
+
+.Home {
+    height: 100vh;
+    background: url(mirror.jpg)  no-repeat; border-radius: 55%;
+    background-size:contain;
+    background-position: 93% ;
+    display: flex;
+    position: 100%;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.Home-content {
+    max-width: 735px;
+}
+
+.Home-content h1 {
+    font-size: 32px;
+    font-weight: 300px;
+    line-height: 1.6;
+}
+
+.Home-content h3 {
+    font-size: 25px;
+    font-weight: 300px;
+    line-height: 1.5;
+    color: #272829;
+}
+
+.Home-content p {
+    font-size: 16px;
+    margin: 20px 0 35px;
+    line-height: 1.5;
+}
+
+.Home-content .btn-box {
+    display:inline-flex;
+    justify-content: center;
+    width: 345px;
+    height: 100px;
+    
+}
+
+.btn-box a {
+    position:absolute;
+    display: inline-flex;
+    justify-content: center;
+    width: 130px;
+    height: 200;
+    background: #D8D9DA;
+    border: 10px solid #D8D9DA;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #272829;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+
+
+.home-section {
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.home-section a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #5C5470;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #ededed;
+    text-decoration: none;
+    z-index: -1;
+    overflow: hidden;
+}
+
+
+
+
+.home-section a:hover::before {
+    width: 100%;
+    
+
+}
+
+.home-imghover {
+    position: absolute;
+    top: 0;
+
+
+}
